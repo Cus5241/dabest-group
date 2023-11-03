@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mugiwara </title>
+    <link rel="icon" href="imgs/Straw hat.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section aria-label="Newest Photos">
+        <div class="wrapper">
+            <div class="topnav">
+                <a class="cn" href="index.html">Mugiwara</a>
+            <div class="topnav-right">
+                <a href="index.html" class="home"(click)="onSelect('home')">Home</a>  
+                <a href="content.html"  class="about"(click)="onSelect('about')">About</a>
+              </div>
+            </div>
+            <header>
+                <div class="header">
+                    <nav>
+                        <img src="imgs/oc4d5zck25f71.webp" class="logo">
+                    </nav>
+                </div>
+                <img src="imgs/Minimalist one piece wallpaper (originally not mine, I just added Jinbei in it since he's the 10th strawhat).jpg" class="background">
+                <h1 class="title"> Ohayo Nakama! </h1>
+            </header>
+        </div>
+        <div class="features">
+            <div class="row">
+                <div class="text-col">
+                    <h2>Marcus D. Law</h2>
+                    <button class="open-modal-button" data-modal-id="modal1"> Click me! </button>
+                    <div id="modal1" class="modal">
+                        <div class="modal-content">
+                            <span class="close" data-modal-close="modal1">&times;</span>
+                            <h2>Marcus Angelo V. Sausa</h2>
+                            <p> Being a One Piece fan, coming to a One Piece themed restaurant is very thrilling for me. It brought out the inner child in me, I enjoyed my time there especially with friends.  </p>
+                            <i > "If you're hungry eat" -Monkey D. Luffy </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-col">
+                    <div class="carousel" data-carousel>
+                        <button class="carousel-button prev" data-carousel-button="prev"> &#8656; </button>
+                        <button class="carousel-button next" data-carousel-button="next"> &#8658; </button>
+                        <ul data-slides>
+                            <li class="slide" data-active>
+                                <img src="imgs/370212112_1113975962916268_8468753557045282498_n.jpg" alt="Law" style="height: 550px; width: 420px">
+                            </li>
+                            <li class="slide">
+                                <img src="imgs/chooper.jpg" alt="Chooper" style="height: 550px; width: 420px">
+                            </li>
+                            <li class="slide">
+                                <img src="imgs/robin.jpg" alt="Robin" style="height: 550px; width: 420px">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-col">
+                    <h2>Fleet Admiral Angeline</h2>
+                    <button class="open-modal-button" data-modal-id="modal2"> Click me! </button>
+                    <div id="modal2" class="modal">
+                        <div class="modal-content">
+                            <span class="close" data-modal-close="modal2">&times;</span>
+                            <h2>Angeline Z. Argete</h2>
+                            <p>My experience at Laugh Tale Café was wonderful. The ambiance is delightful, and the food is excellent. I particularly enjoyed their strawberry frappe, which I highly recommend. Additionally, they have a wide variety of pretty One Piece costumes you can try. I look forward to returning soon!</p>
+                            <i > "You can train for another 10 years, and still lose to me" -Shanks </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-col">
+                    <div class="carousel" data-carousel>
+                        <button class="carousel-button prev" data-carousel-button="prev"> &#8656; </button>
+                        <button class="carousel-button next" data-carousel-button="next"> &#8658; </button>
+                        <ul data-slides>
+                            <li class="slide" data-active>
+                                <img src="imgs/395224528_873016470872808_227909964693029664_n.jpg" alt="fujitora" style="height: 550px; width: 420px">
+                            </li>
+                            <li class="slide">
+                                <img src="imgs/angeline law.jpg" alt="Al" style="height: 550px; width: 420px">
+                            </li>
+                            <li class="slide">
+                                <img src="imgs/happy angelayn.jpg" alt="smilings lang" style="height: 550px; width: 420px">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-col">
+                    <h2>Portgas D. Jean</h2>
+                    <button class="open-modal-button" data-modal-id="modal3"> Click me! </button>
+                    <div id="modal3" class="modal">
+                        <div class="modal-content">
+                            <span class="close" data-modal-close="modal3">&times;</span>
+                            <h2>Jean D. Labrador</h2>
+                            <p>It's a fun and immersive experience, offering themed decor, One Piece-inspired dishes, and a chance to feel like part of Luffy's crew. A great way to relive the spirit of the Grand Line!</p>
+                            <i > "Yohohohohohoho" -Brook </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-col">
+                    <div class="carousel" data-carousel>
+                        <button class="carousel-button prev" data-carousel-button="prev"> &#8656; </button>
+                        <button class="carousel-button next" data-carousel-button="next"> &#8658; </button>
+                        <ul data-slides>
+                            <li class="slide" data-active>
+                                <img src="imgs/370218326_293876333480594_5063264951063501829_n.jpg" alt="donut" style="height: 550px; width: 420px">
+                            </li>
+                            <li class="slide">
+                                <img src="imgs/jean chopper.jpg" alt="Chopper" style="height: 550px; width: 420px">
+                            </li>
+                            <li class="slide">
+                                <img src="imgs/jean law.jpg" alt="batas" style="height: 550px; width: 420px">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordion" id="first">
+                    <label for="first">What is Laugh Tale Cafe?</label>
+                    <div class="content">
+                        <p>
+                            "Laugh Tale Café is a One Piece-themed restaurant that takes you on a fun adventure in the world of the popular anime and manga. As you enter, you'll find a pirate-inspired atmosphere with decorations and murals from the series. The menu offers dishes and drinks inspired by One Piece characters and places, like Luffy's burger or Nami's special drink. The staff is dressed like Straw Hat Pirates to make your visit even more exciting. Laugh Tale Café is a must-visit for fans and food lovers, where you can enjoy great food and feel like you're part of the One Piece world."</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="second">
+                    <label for="second">What is One Piece?</label>
+                    <div class="content">
+                        <p>"One Piece" is a popular and long-running Japanese anime and manga series created by Eiichiro Oda. It follows the adventures of Monkey D. Luffy and his crew, known as the Straw Hat Pirates, as they search for the ultimate treasure, the One Piece, in a world filled with pirates, marines, and a wide variety of unique and fantastical islands and characters. The series is known for its vast world-building, diverse cast of characters, and epic battles. It has gained a dedicated fanbase and has been a significant part of the anime and manga community for many years.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="third">
+                    <label for="third">What is their best seller?</label>
+                    <div class="content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, quaerat. Suscipit, nam. Eos eveniet commodi quis. Assumenda veniam natus tempora. Voluptate omnis dolorum recusandae adipisci obcaecati, fugit ab. Nobis, et.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="fourth">
+                    <label for="fourth">Where is Laugh Tale Cafe Located?</label>
+                    <div class="content">
+                        <p>2nd Floor Elcoco Building M. Paulino St. Brgy III-B , San Pablo City, Philippines, 4000</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer">
+            <h2>Questions? Call 0936-412-8990</h2>
+            <div class="row">
+                <div class="col">
+                    <a href="https://www.facebook.com/laughtalecoffee">Facebook</a>
+                    <a href="https://www.instagram.com/laughtale.cafe/">Instagram</a>
+                    <a href="https://maps.app.goo.gl/WSPkHUeubepqydhf6">Location</a>
+                    <a href="https://gogoanime3.net/one-piece-episode-1">Watch One Piece</a>
+                    <a href="https://tcbscans.com/chapters/433/one-piece-chapter-1-review-1688718751?date=3-11-2023-0">Read One Piece</a>
+                    <a href="D:\UI\Menu"> Menu </a>
+                    <a href="content.html"> About us </a>
+                </div>
+                <div class="img">
+                    <img src="imgs/main-qimg-d9c839c373b06e7cdbdd23b087837680-lq-removebg-preview.png">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
